@@ -1,3 +1,4 @@
+import './LeftHeader.css';
 const LeftHeader = () => {
   return (
     <div className="left-square-icon">

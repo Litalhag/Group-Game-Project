@@ -1,0 +1,12 @@
+.images-box {
+  cursor: pointer;
+  width: 7.5rem;
+  height: 7.5rem;
+  background-color: #f0f0f0;
+}
+
+.scaled-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Scale image to fit the container while maintaining aspect ratio */
+}

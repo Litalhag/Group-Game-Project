@@ -1,3 +1,5 @@
+import './RightHeader.css';
+
 const RightHeader = () => {
   return (
     <div className="right-header">

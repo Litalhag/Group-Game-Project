@@ -1,5 +1,6 @@
 import ModalImageBox from './ModalImageBox';
 import avatars from '../../data/data';
+import './ModalAvatar.css';
 const ModalAvatar = () => {
   return (
     <div className="flex-align-justify-center modal-avatar-style">

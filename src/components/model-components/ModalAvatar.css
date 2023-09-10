@@ -1,0 +1,12 @@
+.modal-avatar-style {
+  width: 41rem;
+  height: 25.7rem;
+  margin-bottom: 1rem;
+}
+
+.grid-images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  grid-template-rows: repeat(3, 1fr); /* 3 rows */
+  grid-gap: 10px; /* Adjust the gap between images */
+}

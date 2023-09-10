@@ -1,0 +1,34 @@
+.left-square-icon {
+  position: absolute;
+  z-index: 1;
+  width: 13rem;
+  height: 13rem;
+  border: var(--black) 0.5rem solid;
+  background: var(--royal-blue);
+  top: 14.4rem;
+  margin-left: 5.4rem;
+  margin-right: 70.4;
+}
+.icon-choice {
+  position: relative;
+  z-index: 1;
+  height: 7.3rem;
+}
+
+.icon-choice img {
+  position: absolute;
+  margin-left: 0.6rem;
+  margin-top: 1.2rem;
+}
+.icon-char {
+  z-index: 1;
+  position: absolute;
+  font-family: 'hwt-artz', sans-serif;
+  color: var(--white);
+  /* offset-x | offset-y | blur-radius | color */
+  text-shadow: -0.25rem -0.25rem 0.2rem #000, 0.25rem 0.25rem 0.2rem #000;
+  -webkit-text-stroke: black 0.1rem;
+  font-size: 3.6rem;
+  margin-left: 2.3rem;
+  margin-top: 3rem;
+}

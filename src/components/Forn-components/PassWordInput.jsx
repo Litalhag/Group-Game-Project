@@ -1,5 +1,5 @@
 import ErrorDiv from './ErrorDiv';
-
+import './PasswordInput.css';
 const PasswordInput = () => {
   return (
     <div className="input-type-div">

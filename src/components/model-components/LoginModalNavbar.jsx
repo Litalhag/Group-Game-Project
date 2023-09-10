@@ -1,3 +1,5 @@
+import './LoginModalNavbar.css';
+
 const LoginModalNavbar = () => {
   return (
     <div className="just-flex navbar">

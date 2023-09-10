@@ -1,0 +1,118 @@
+/* Main classes */
+.lobby {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: var(--max-width);
+  max-height: var(--max-height);
+}
+.modal-header {
+  grid-area: header-img;
+  background: url('./assets/images/modal-header/complete_header.png');
+  height: 23.7rem;
+  position: relative;
+}
+.modal {
+  background: var(--white);
+  width: var(--modal-width);
+  height: var(--modal-height);
+  margin-top: var(--modal-margin-top);
+  margin-bottom: var(--modal-margin-bottom);
+  overflow: hidden;
+  display: grid;
+  grid-template-areas:
+    'navbar'
+    'header-img'
+    'header-img'
+    'header-img'
+    'showcase'
+    'showcase'
+    'showcase'
+    'showcase'
+    'showcase'
+    'showcase'
+    'modal-account'
+    'modal-account';
+  grid-auto-rows: 1fr;
+  grid-auto-columns: 1fr;
+  border: none;
+  border-radius: 1.5rem;
+  box-shadow: 1rem 1rem 4rem 0 rgba(0, 0, 0, 0.35);
+}
+
+/* showcase */
+.modal-showcase {
+  display: flex;
+  grid-area: showcase;
+  height: 42rem;
+  gap: 7.3rem;
+  width: 100%;
+  background-color: white;
+}
+
+.btn-container {
+  position: absolute;
+  right: -30rem;
+  top: 30rem;
+}
+
+.modal-avatar {
+  margin-top: 8rem;
+}
+
+.modal-account {
+  height: 14.7rem;
+  width: 100%;
+  grid-area: modal-account;
+  background-color: white;
+}
+
+/* showcase form */
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  margin-left: 4rem;
+  gap: 1.5rem;
+  height: 29rem;
+  position: relative;
+}
+
+.form-contents {
+  flex-grow: 1;
+}
+
+input {
+  width: 32rem;
+  height: 5rem;
+  flex-shrink: 0;
+  background-color: var(--cream-gray);
+  border: none;
+}
+
+::placeholder {
+  color: #8f8f8f;
+  font-family: 'Open Sans';
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  padding: 1.3rem 7.6rem 1.2rem 1.3rem;
+}
+
+#passwordInput::placeholder {
+  color: var(--red);
+  font-family: 'Open sans';
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+label {
+  color: var(--black);
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}

@@ -1,13 +1,4 @@
-import {
-  LoginModalNavbar,
-  LeftHeader,
-  RightHeader,
-  NickNameInput,
-  EmailInput,
-  PasswordInput,
-  LoginBtn,
-  ModalAvatar,
-} from '../components/index.js';
+import { LoginModalNavbar, LeftHeader, RightHeader } from '../components/index.js';
 const LobbyModal = () => {
   return (
     <main className="lobby">

@@ -1,3 +1,4 @@
+import './ModalImageBox.css';
 const ModalImageBox = ({ image }) => {
   return (
     <div className="images-box">

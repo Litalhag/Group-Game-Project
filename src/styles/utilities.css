@@ -77,3 +77,34 @@
   justify-content: center;
   align-items: center;
 }
+
+.input-type-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  color: var(--red);
+  display: none; /* Hidden by default */
+}
+
+.error-input {
+  border: 2px solid var(--red) !important; /* Adjust as needed */
+}
+
+.input-container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  top: 54%;
+  left: 28rem;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
