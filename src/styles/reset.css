@@ -1,0 +1,47 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  /* The default font size of the browser is 16px, so if we want 1rem to be equal to 10px, we divide 10px by 16px = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background: gray;
+  font-family: 'hwt-artz', sans-serif;
+  font-size: 2rem;
+  color: gray;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* @media only screen and (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+} */
